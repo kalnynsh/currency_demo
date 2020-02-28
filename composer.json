@@ -1,0 +1,23 @@
+{
+    "type": "project",
+    "license": "proprietary",
+    "require": {},
+    "require-dev": {},
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {}
+}
